@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 1px;
+}
+
+#div{
+    border-top: 2px solid black;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.form-container{
+    width: 400px;
+    margin: 45px auto;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.icon{
+    width: 250px;
+}
+
+.input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 15px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color:gray;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    margin-top: 25px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.actions h5{
+    color: grey;
+    font-size: small;
+    padding: 25px;
+}
+
+.actions span{
+    color: rgb(67, 67, 176);
+    text-decoration: underline;
+}
+
+.terms p{
+    color: grey;
+    font-size: smaller;
+}

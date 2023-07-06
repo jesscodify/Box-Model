@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+
+.bg-card{
+    border: 1px solid grey;
+    width: 600px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: rgb(137, 194, 137);
+    font-size: 1.6em;
+    padding: 30px 50px;
+
+}
+
+p{
+    font-size: medium;
+}
+
+
+
+button{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 50px;
+}
